@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.1</Version>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <Version>0.0.2</Version>
+    <PackageReleaseNotes>Updated Package ID to Validate.That.</PackageReleaseNotes>
     <PackageTags>validate, that, fluent, validation, argument, contract, guard</PackageTags>
     <Description>
       Validate input arguments, members or fields with Validate.That(…) call.
@@ -17,6 +17,7 @@
     <PackageProjectUrl>https://github.com/shuruev/ValidateThat</PackageProjectUrl>
     <PackageIcon>images/icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Validate.That</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
