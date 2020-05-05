@@ -1,2 +1,2 @@
-# ValidateThat
-Validate input arguments, member or fields with Validate.That() call
+# Validate.That
+Validate input arguments, members or fields with Validate.That(…) call.

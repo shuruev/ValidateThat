@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageTags>validate, that, fluent, validation, argument, contract, guard</PackageTags>
+    <Description>
+      Validate input arguments, members or fields with Validate.That(…) call.
+
+      One-line call per field, no extra classes required. Auto-disovers field name based on expression.
+      Allows extending with own validators as well as overriding validation exception.
+
+      Check out GitHub for more docs and usage examples.
+    </Description>
+    <Authors>Oleg Shuruev</Authors>
+    <PackageProjectUrl>https://github.com/shuruev/ValidateThat</PackageProjectUrl>
+    <PackageIcon>images/icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>images</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
